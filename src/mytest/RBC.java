@@ -44,12 +44,6 @@ public class RBC {
 //        }
 //        return OptionOne;				// case 8: true true true
         
-//        int option = OptionOne ;
-//        if (first && !(third && second)){
-//        	option = OptionTwo;			
-//        }else{  
-//            option = OptionOne;
-//        }
         
         return first && !third || first && !second ? OptionTwo : OptionOne;				
         
